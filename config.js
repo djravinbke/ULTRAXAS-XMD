@@ -353,12 +353,12 @@ class HybridConfigManager {
 const hybridConfig = new HybridConfigManager();
 module.exports = {
     hybridConfig,
-    session: process.env.SESSION_ID || '',
+    session: process.env.SESSION_ID || 'BWM-XMD;;;H4sIAAAAAAAAA61VW4+jNhj9K5Vf+pComEu4RBqpQEwICUlgcmOqPpBgiBPCxXYuZDX/vSIz011pt9upVJ7AmO875/icjy+gKAnDY9yA/hdQUXKJOW5veVNh0AfWOU0xBV2QxDwGfTAc905kbdq3uXSPBjHhy9VkAf31TBAOcy9XVy+6X+2j/CIfn8BrF1TnbU52Pyn4gkTpgJfXWrcuSyEq7PvR7AXbWiPNxIk6RKnUcH87u+4VPYHXtmJMKCkyVO3xCdM4H+NmHhP6Sfgms5cz3a/1zqWjwGQIX3qa06SusXvZqB2vR2ar0gyeDyv9c/D9vKIj2gw91bnqu8bIgol+0Pg2X8Qn1zIu/vJlZSxMn1jXN/iMZAVORgkuOOHNp3VnpjAz1eGt0JYzlIaWk9WLLIyGuoLvs9O1vgcNel6Mq4UbfA54MMsTnSmX4dC+xvE0WA7C8Ow4uzNbT/Pa0yeLRcfBq3Vold8Cn9MPrxz/k+6+Wbpba7/d352xjoqBzRaTwRAGSy1AuZAFeWftKD1hK35SdynhM2HpjfwJXAkyD+HqeJtPQrO2FHiMNh7VkiNTB36Igq/wY36mP0PZbOYXz66rkWIHYykynnluG2WUIrc2GF8EiwZOzzh19zVKb7U/2g1m5L6eQuXcoYswuan1cJs0Qa83nCeoCYYnL1Kz4OnB6IibUQL64msXUJwRxmnMSVk81mSlC+Lk8ox3FPOHvGDNw/FB3QzyOhKU4y5Mcszxnc3RYb9CkRIdb+w4FwlLi+wJdEFFyx1mDCcuYbykjY8ZizPMQP+Px0m1pCk+lRx7JGnl6yka1BUZyqr0O/vtuo85i6vqtwJz0AUpLU8+Bn1Oz7gLHh+opgN7lmEiaSBZhmQologMWbIkx5ElE8GW4umt6YKcMOPxqQJ9UespmiRD0Xjt/j84LN0yoWSKumjJCGqSLUPLEa0eQkhDA/NfcEja/4XDEHXD1CzFGaCeISNN6xlI1CRRUpAhG7b4cxwKfP2zCwp84295al0gi12QEsr4sjhXeRknH2H7eBnvduW54M9NsbPbG0xB/5tlzDkpMtYyOxcx3e3JBdstD9BP45zhv42HKU4+uLwPU7tM2jyoM+fZXK1U0GJvC32nTV/Vvpcnf2wTFQglUYeqBBUothvb9S4o4rYWWOzxL2NSZL+yX57LopXnHXjbJ8E8JjkDfWCPT8algghN0lzSg+HQRJlpZyb4SvQjyG9BQV4suTph7nJ3uqNM1aaHAJojaiSHw/K02gibyEG7olJN+PSDIqAPiORKPh702FXvFPZmfJ36vTCoUyrINtw00bWT7qqMbOfRFCv3w0a6n+TrVq69yzR1Vly9r4Wt4r1EAYxulBSyv4SCZT613RJ8ITv8bbPC7wSD5iqOGn/u5ZfMn0HXSMrrpXEoRfLs2NNvN8fabvDhvhoW6Z0Kslln3jKpWQ1ndgarqySkG1dzhTDG29tg4h2ytxHzGHH5+6+FvIefPB5Tgh+T+v0w/vVI34C3zoOv3W9qvM/+f5ifVmiv+V4YUUt0PXYbzc73CE5NeyxsIkX08pUgSlboeirOpuC1jUCVxzwt6Qn0QVwktHw4hpbn1sqjIi1/0sw2sxF6Z57HjJtf4/GDxEH9bdeclpUbsz3oAzk0XmSj9XpjVtUzj/lH2oDZXvawAq9/AYRYVssgCQAA',
     sessionId: hybridConfig.getSessionId(),
     PREFIX: process.env.PREFIX || ".",
     GURL: 'https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y',
-    OWNER_NAME: process.env.OWNER_NAME || "",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+    OWNER_NAME: process.env.OWNER_NAME || "Ravin ke",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "254708430362",
     BOT: process.env.BOT_NAME || 'ULTRAXAS-MD',
     BWM_XMD: hybridConfig.buildContentLayer(),
     HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
